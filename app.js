@@ -99,7 +99,7 @@ app.get("/demo",async(req,res)=>{
 });
 
 app.get("/",(req,res)=>{
-    res.send("This is working");
+    res.redirect("/listings");
 });
 
 // app.get("/testListing",async(req,res)=>{
